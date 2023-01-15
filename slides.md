@@ -1,22 +1,14 @@
 class: gray-background
 
-# Title slide
+# Practical software licensing
 
-.left-column50[
-.fat[1:] Point
-
-.fat[2:] Another point
-
-.fat[3:] Insert RSE logo
-]
-
-.right-column50[
 ## Radovan Bast [@\_\_radovan](https://twitter.com/__radovan)
 
 ### UiT The Arctic University of Norway
 
-<img src="img/coderefinery.png" style="height: 250px;"/>
-]
+<img src="img/coderefinery.png" style="height: 140px;"/>
+&nbsp;
+<img src="img/rse-logo.png" style="height: 180px;"/>
 
 ---
 
@@ -61,15 +53,41 @@ class: gray-background
 
 ---
 
-at the beginning of a project ... later in the project
+# FAIR principles and software
+
+Researchers need to navigate many tools and concepts.
+
+<img src="img/turing-way/8-fair-principles.jpg" style="height: 380px;"/>
+
+.cite[(c) [Scriberia](http://www.scriberia.co.uk) for [The Turing Way](https://the-turing-way.netlify.com), CC-BY]
 
 ---
 
-# Academic credit
+<img src="img/reproducible-research.jpg" style="height: 550px;"/>
 
-- Software licenses
-- Software citation
-- Academic credit
+.cite[Heidi Seibold, CC-BY 4.0, https://twitter.com/HeidiBaya/status/1579385587865649153]
+
+---
+
+.left-column50[
+### Beginning of a project
+
+<img src="https://via.placeholder.com/300" />
+
+- Does not seem important
+- Easy to change (*)
+]
+
+.right-column50[
+### Later in the project
+
+<img src="https://via.placeholder.com/300" />
+
+- Can be important
+- Especially when combining codes or organizations
+- Difficult to change
+- Authors change affiliation
+]
 
 ---
 
@@ -88,22 +106,6 @@ under construction ...
 # Examples
 
 under construction ...
-
----
-
-# FAIR principles and software
-
-Researchers need to navigate many tools and concepts.
-
-<img src="img/turing-way/8-fair-principles.jpg" style="height: 380px;"/>
-
-.cite[(c) [Scriberia](http://www.scriberia.co.uk) for [The Turing Way](https://the-turing-way.netlify.com), CC-BY]
-
----
-
-<img src="img/reproducible-research.jpg" style="height: 550px;"/>
-
-.cite[Heidi Seibold, CC-BY 4.0, https://twitter.com/HeidiBaya/status/1579385587865649153]
 
 ---
 
@@ -161,3 +163,15 @@ Researchers need to navigate many tools and concepts.
 - contributing
 - maintenance
 - sharing, selling
+
+---
+
+# Academic credit
+
+- Software licenses
+- Software citation
+- Academic credit
+
+---
+
+# Software citation
