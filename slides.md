@@ -72,16 +72,24 @@ Researchers need to navigate many tools and concepts.
 .left-column50[
 ### Beginning of a project
 
-<img src="https://via.placeholder.com/300" />
+<img src="img/ai/field.png"
+     alt="Generated image of an empty field"
+     style="height: 250px;" />
 
-- Does not seem important
+.cite[Midjourney, CC-BY-NC 4.0]
+
+- License does not seem important
 - Easy to change (*)
 ]
 
 .right-column50[
 ### Later in the project
 
-<img src="https://via.placeholder.com/300" />
+<img src="img/hundertwasserhaus.jpg"
+     alt="Photo of Hunderwasserhaus in Vienna"
+     style="height: 250px;" />
+
+.cite[C.Stadler/Bwag, CC-BY-SA 4.0]
 
 - Can be important
 - Especially when combining codes or organizations
@@ -109,9 +117,15 @@ Code that we write is automatically protected by copyright practically
 ]
 
 .right-column30[
-<img src="https://via.placeholder.com/250" />
+<img src="img/ai/gutenberg.png"
+     alt="Generated image of persons operating a Gutenberg press"
+     style="height: 250px;" />
 
-<img src="https://via.placeholder.com/250" />
+<img src="img/ai/medieval-2.png"
+     alt="Generated image of persons in front of a computer"
+     style="height: 250px;" />
+
+.cite[Midjourney, CC-BY-NC 4.0]
 ]
 
 ---
@@ -138,9 +152,15 @@ Code that we write is automatically protected by copyright practically
 ]
 
 .right-column30[
-<img src="https://via.placeholder.com/250" />
+<img src="img/ai/record-player.png"
+     alt="Generated image of a monk operating a record player"
+     style="height: 250px;" />
 
-<img src="https://via.placeholder.com/250" />
+<img src="img/ai/turntable.png"
+     alt="Generated image of a monk operating two record players"
+     style="height: 250px;" />
+
+.cite[Midjourney, CC-BY-NC 4.0]
 ]
 
 ---
