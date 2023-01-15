@@ -165,9 +165,80 @@ Code that we write is automatically protected by copyright practically
 
 ---
 
+.left-column70[
+# Derivative work?
+
+- Download some code from a website and add on to it:
+  .quote[[ ] yes [ ] no]
+- Download some code and use one of the functions in your code:
+  .quote[[ ] yes [ ] no]
+- Rewriting code you got from somewhere to a different language:
+  .quote[[ ] yes [ ] no]
+- Linking to libraries (static or dynamic), plug-ins, and drivers:
+  .quote[[ ] yes [ ] no]
+- You read a paper, understand algorithm, write own code:
+  .quote[[ ] yes [ ] no]
+- Clean room design (somebody explains you the code but you have never seen it):
+  .quote[[ ] yes [ ] no]
+]
+
+.right-column30[
+<img src="https://via.placeholder.com/250"
+     alt="alt text"
+     style="height: 250px;" />
+
+<img src="https://via.placeholder.com/250"
+     alt="alt text"
+     style="height: 250px;" />
+
+.cite[Midjourney, CC-BY-NC 4.0]
+]
+
+---
+
+.left-column70[
+# Derivative work?
+
+- Download some code from a website and add on to it:
+  .quote[[x] yes [ ] no]
+- Download some code and use one of the functions in your code:
+  .quote[[x] yes [ ] no]
+- Rewriting code you got from somewhere to a different language:
+  .quote[[x] yes [ ] no]
+- Linking to libraries (static or dynamic), plug-ins, and drivers:
+  .quote[[ ] yes [x] no]
+- You read a paper, understand algorithm, write own code:
+  .quote[[ ] yes [x] no]
+- Clean room design (somebody explains you the code but you have never seen it):
+  .quote[[ ] yes [x] no]
+]
+
+.right-column30[
+<img src="https://via.placeholder.com/250"
+     alt="alt text"
+     style="height: 250px;" />
+
+<img src="https://via.placeholder.com/250"
+     alt="alt text"
+     style="height: 250px;" />
+
+.cite[Midjourney, CC-BY-NC 4.0]
+]
+
+---
+
 # Software license types
 
 under construction ...
+
+---
+
+# License considerations
+
+- reuse
+- contributing
+- maintenance
+- sharing, selling
 
 ---
 
@@ -185,21 +256,11 @@ under construction ...
 
 # Practical recommendations
 
----
-
-# Starting a new project
-
----
-
-# Contributing
-
----
-
-# Reusing
-
----
-
-# Sharing software
+- Starting a new project
+- Contributing
+- Reusing
+  - Keep track of where things come from
+- Collaborating
 
 ---
 
@@ -207,24 +268,11 @@ under construction ...
 
 ---
 
-# Derivative work
-
----
-
-# Licensing of machine learning models
+# Licensing and machine learning/ AI
 
 ---
 
 # Resources
-
----
-
-# License considerations
-
-- reuse
-- contributing
-- maintenance
-- sharing, selling
 
 ---
 
