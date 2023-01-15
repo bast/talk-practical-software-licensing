@@ -34,15 +34,34 @@ class: gray-background
 
 - I lead the [high-performance computing group](https://hpc.uit.no) and the
   [research software engineering group](https://research-software.uit.no) at UiT.
+
+.quote[I am not a lawyer. This is not a legal advice ...]
 ]
 
 ---
 
 # Goals
 
-at the beginning of a project ... later in the project
+- Connect software licenses to FAIR principles
 
-under construction ...
+- .emph[Practical recommendations] for starting, contributing, reusing
+
+- Practical recommendations for individuals, projects, group leads
+
+- Help you navigating and deciding
+
+
+## Not our goals
+
+- Finding out which license is the best: it depends
+
+- Remembering all the licenses
+
+- Going into legal details
+
+---
+
+at the beginning of a project ... later in the project
 
 ---
 
