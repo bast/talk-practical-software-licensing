@@ -91,6 +91,60 @@ Researchers need to navigate many tools and concepts.
 
 ---
 
+.left-column70[
+# Copyright
+
+- .emph[creative expression] -> copyright
+- idea -> patents
+- name -> trademark
+
+Copyright controls whether we can distribute
+the original work or the derivative work
+- "distribute-right"
+- "change-right"
+
+Code that we write is automatically protected by copyright practically
+"forever" (lifetime of author + 70 years).
+- (c) who exactly, though?
+]
+
+.right-column30[
+<img src="https://via.placeholder.com/250" />
+
+<img src="https://via.placeholder.com/250" />
+]
+
+---
+
+.left-column70[
+# Sampling/remixing
+
+- Changing and distributing software is similar to changing and distributing
+  music
+- You can do almost anything if you don't distribute it
+
+
+### Often we don't have the choice
+
+- We are expected to publish software
+- Sharing can be good insurance against being locked out
+
+
+### Can we distribute our changes?
+
+- ... with the research community or our future selves?
+- .emph[Derivative work]
+- Now it matters to look at licenses
+]
+
+.right-column30[
+<img src="https://via.placeholder.com/250" />
+
+<img src="https://via.placeholder.com/250" />
+]
+
+---
+
 # Software license types
 
 under construction ...
@@ -133,14 +187,6 @@ under construction ...
 
 ---
 
-# Copyright
-
-- creative expression
-- patents
-- trademarks
-
----
-
 # Derivative work
 
 ---
@@ -150,10 +196,6 @@ under construction ...
 ---
 
 # Resources
-
----
-
-# Sampling/remixing
 
 ---
 
