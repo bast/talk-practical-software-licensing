@@ -242,8 +242,9 @@ Code that we write is automatically protected by copyright practically
 .right-column50[
 <img src="img/cake-2.svg" alt="cake emoji" style="width: 100px;"/>
 
-## Famous restaurant finds your cake recipe on GitHub
+## Famous restaurant ...
 
+- Finds your cake recipe on GitHub
 - The chef suggests improvements (.emph[derivative work]).
 - They wish to put it on their menu (.emph[distribution]).
 ]
