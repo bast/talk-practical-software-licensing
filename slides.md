@@ -248,7 +248,7 @@ Code that we write is automatically protected by copyright practically
 - They wish to put it on their menu (.emph[distribution]).
 ]
 
-.cite[Images: [EmojiOne](https://www.emojione.com), CC BY-SA 4.0]
+.cite[Images: [EmojiOne](https://www.emojione.com), CC-BY-SA 4.0]
 
 ---
 
