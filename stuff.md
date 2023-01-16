@@ -3,7 +3,6 @@
 - visual intelligence center
 - public sector - companies - universities
 - save abstract
-- examples for codes and their license choices
 - re-sharing
 - open-core and branches
 
