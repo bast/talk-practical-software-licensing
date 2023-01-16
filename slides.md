@@ -311,35 +311,61 @@ fictitious example though. -->
 
 ---
 
-### 1. Custom/closed/proprietary
+### Custom/closed/proprietary
 
 - .emph[Derivative work typically not possible]
 
 
-### 2. Permissive
+### Permissive
 
 - You .emph[may lose access to derivative work]
 - Attractive for companies with proprietary software
 
 
-### 3. Share-alike, weak copyleft
+### Share-alike, weak copyleft
 
 - You can reuse .emph[their changes to your component]
 - Compatible with proprietary software
 
 
-### 4. Strong copyleft
+### Strong copyleft
 
 - You can reuse and further change .emph[the combined derivative work]
 - Not attractive for companies with proprietary software
 
 ---
 
-# Ownership
+# Ownership (1/2)
 
-<img src="https://via.placeholder.com/250"
-     alt="alt text"
-     style="height: 250px;" />
+### Who owns the copyright for software you write?
+
+- Intellectual property .emph[depends on the country and the employer] ("works made for hire")
+
+
+### Who can decide about or change a license?
+
+- The copyright holder if a separate "Contributor License Agreement" is signed.
+- Otherwise consent from all contributors.
+
+---
+
+# Ownership (2/2)
+
+### If you own your software:
+
+- You can change the license.
+- You can dual-license (e.g. GPL for anyone, but you can pay for commercial non-GPL).
+
+
+### If you do not own your software, you can:
+
+- Request open-sourcing directly (preserves your rights).
+- Request a transfer of ownership (check with your university).
+
+
+### If you accept contributions (pull requests), you may not be the only owner anymore!
+
+- Clarify licensing strategy early in the project.
 
 ---
 
@@ -366,6 +392,9 @@ under construction ...
 ---
 
 # Licensing and machine learning/ AI
+
+[here I will connect to the generative AI and comment on challenges with
+licensing ML components]
 
 ---
 
