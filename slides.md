@@ -183,12 +183,12 @@ Code that we write is automatically protected by copyright practically
 ]
 
 .right-column30[
-<img src="https://via.placeholder.com/250"
-     alt="alt text"
+<img src="img/ai/tape.png"
+     alt="Generated image of a casette tape"
      style="height: 250px;" />
 
-<img src="https://via.placeholder.com/250"
-     alt="alt text"
+<img src="img/ai/bulbs.png"
+     alt="Generated image of the evolution of light bulbs"
      style="height: 250px;" />
 
 .cite[Midjourney, CC-BY-NC 4.0]
@@ -214,12 +214,12 @@ Code that we write is automatically protected by copyright practically
 ]
 
 .right-column30[
-<img src="https://via.placeholder.com/250"
-     alt="alt text"
+<img src="img/ai/modular.png"
+     alt="Generated image of a modular synthesizer"
      style="height: 250px;" />
 
-<img src="https://via.placeholder.com/250"
-     alt="alt text"
+<img src="img/ai/clean-room.png"
+     alt="Generated image of a clean room"
      style="height: 250px;" />
 
 .cite[Midjourney, CC-BY-NC 4.0]
@@ -265,6 +265,14 @@ under construction ...
 ---
 
 # Ownership
+
+<img src="https://via.placeholder.com/250"
+     alt="alt text"
+     style="height: 250px;" />
+
+<img src="https://via.placeholder.com/250"
+     alt="alt text"
+     style="height: 250px;" />
 
 ---
 
