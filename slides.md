@@ -46,10 +46,9 @@ class: gray-background
 ## Not our goals
 
 - Finding out which license is the best: it depends
-
 - Remembering all the licenses
-
 - Going into legal details
+- Ideological aspects
 
 ---
 
@@ -227,30 +226,120 @@ Code that we write is automatically protected by copyright practically
 
 ---
 
-# Software license types
+# Software license types (metaphor: cake)
 
-under construction ...
+.left-column50[
+<img src="img/cake-1.svg" alt="cake emoji" style="width: 100px;"/>
+
+## Your recipe (code)
+
+- Imagine you (.emph[original author]) compose a recipe for a really tasty cake.
+- In regular intervals you distribute cakes (release binaries).
+- You shared it on GitHub under OpenCake organization.
+
+]
+
+.right-column50[
+<img src="img/cake-2.svg" alt="cake emoji" style="width: 100px;"/>
+
+## Famous restaurant finds your cake recipe on GitHub
+
+- The chef suggests improvements (.emph[derivative work]).
+- They wish to put it on their menu (.emph[distribution]).
+]
+
+.cite[Images: [EmojiOne](https://www.emojione.com), CC BY-SA 4.0]
 
 ---
 
-# License considerations
+## Possible outcomes 1/4: custom/proprietary
 
-- reuse
-- contributing
-- maintenance
-- sharing, selling
+### No license or custom license
+
+- No restaurant chef will touch it: too much hassle to employ a lawyer to be sure
+  that the cake can be served to customers.
+- But maybe they will bake it and eat it and not distribute it and that is OK
+  ("fair use" provision permits the making of copies for own use).
+
+<!--- The restaurant industry is infamous for copying recipes and there are
+very few published court cases. Let's skim over this fact and stay in the
+fictitious example though. -->
 
 ---
 
-# Software and data licenses
+## Possible outcomes 2/4: permissive
 
-under construction ...
+### License: MIT or Apache or BSD-2
+
+- It is OK to use the recipe and sell the cake.
+- It is OK to not share the improved recipe.
+- They have to .emph[indicate where the original recipe came from (preserve copyright notice)]
+  and possibly summarize their modifications.
+- If somebody becomes sick, it is not the fault of the OpenCake organization (limit of liability).
+- You may not get the improvements back to use yourself.
+
+### License: BSD-3
+
+- In addition to the above it is understood that the updated recipe are not endorsed by the OpenCake organization.
 
 ---
 
-# Examples
+## Possible outcomes 3/4: share-alike, weak copyleft
 
-[here I will list few examples for codes and their license choices ...]
+### License: GNU Lesser GPL (LGPL)
+
+- The famous restaurant has to share only the improved cake recipe .emph[but can keep the rest of the menu closed].
+- .emph[You can use their improved recipe] and improve it further:
+
+<img src="img/cake-2.svg" alt="cake emoji" style="width: 100px;"/>
+<img src="img/cake-3.svg" alt="cake emoji" style="width: 100px;"/>
+
+- The restaurant guests have to be able to exchange the cake from the menu by improved cakes from other restaurants (dynamic relinking).
+
+### License: Mozilla Public License v2.0
+
+- Like LGPL but do not require that the modified cake can be exchanged by the restaurant guest.
+
+---
+
+## Possible outcomes 4/4: strong copyleft
+
+### License: GNU GPL or GNU Affero GPL
+
+- If the cake is a part of the menu, the famous restaurant has to
+  .emph[share the recipes of the entire menu].
+
+---
+
+### 1. Custom/closed/proprietary
+
+- .emph[Derivative work typically not possible]
+
+
+### 2. Permissive
+
+- You .emph[may lose access to derivative work]
+- Attractive for companies with proprietary software
+
+
+### 3. Share-alike, weak copyleft
+
+- You can reuse .emph[their changes to your component]
+- Compatible with proprietary software
+
+
+### 4. Strong copyleft
+
+- You can reuse and further change .emph[the combined derivative work]
+- Not attractive for companies with proprietary software
+
+---
+
+# Ownership
+
+<img src="https://via.placeholder.com/250"
+     alt="alt text"
+     style="height: 250px;" />
 
 ---
 
@@ -264,23 +353,19 @@ under construction ...
 
 ---
 
-# Ownership
+# Examples
 
-<img src="https://via.placeholder.com/250"
-     alt="alt text"
-     style="height: 250px;" />
+[here I will list few examples for codes and their license choices ...]
 
-<img src="https://via.placeholder.com/250"
-     alt="alt text"
-     style="height: 250px;" />
+---
+
+# How about data?
+
+under construction ...
 
 ---
 
 # Licensing and machine learning/ AI
-
----
-
-# Resources
 
 ---
 
@@ -293,3 +378,9 @@ under construction ...
 ---
 
 # Software citation
+
+---
+
+# Resources
+
+[here I will list good resources ...]
