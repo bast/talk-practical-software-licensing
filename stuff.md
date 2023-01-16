@@ -4,7 +4,6 @@
 - public sector - companies - universities
 - save abstract
 - re-sharing
-- open-core and branches
 
 
 # Prompts

@@ -371,11 +371,48 @@ fictitious example though. -->
 
 # Practical recommendations
 
-- Starting a new project
-- Contributing
-- Reusing
-  - Keep track of where things come from
-- Collaborating
+### Starting a new project
+
+- License your code **very early** in the project.
+- **You cannot ignore licensing**: default is "no one can make copies or
+  derivative works".
+- Start with a `README.md` and a `LICENSE` file.
+- A great resource on what to include in a `README.md`
+  are the [JOSS paper review criteria](https://joss.readthedocs.io/en/latest/review_criteria.html).
+- Add also the files `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` (see [Mozilla
+  Introduction to Contributor
+  Guidelines](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/),
+  [good example](https://github.com/KirstieJane/STEMMRoleModels)).
+
+
+### Even before starting
+
+- Emphasize the open source nature of the code output in your research
+  proposal.
+- Agree on license that works for all project partners.
+
+---
+
+### Choice of license
+
+- Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
+  [compatibility](https://en.wikipedia.org/wiki/License_compatibility).
+- **Do not design your own custom licenses** for open source/ open use: compatibility not clear.
+
+
+### Contributing
+
+- Don't lock yourself out of your own code. Clarify the license.
+
+
+### Receiving contributions
+
+- Keep track of where things come from. Clarify their license.
+- **Work as if the repo is public even though it is still private**:
+  This is to avoid surprises about code in the history with incompatible
+  license years later when we decide to open the project.
+- Open core: You don't have to open source all your work. Core can be open
+  and on a public branch. The unpublished stuff can be on a private repository.
 
 ---
 
@@ -399,6 +436,8 @@ licensing ML components]
 ---
 
 # Academic credit
+
+[I will expand ...]
 
 - Software licenses
 - Software citation
