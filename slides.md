@@ -235,7 +235,7 @@ Code that we write is automatically protected by copyright practically
 
 - Imagine you (.emph[original author]) compose a recipe for a really tasty cake.
 - In regular intervals you distribute cakes (release binaries).
-- You shared it on GitHub under OpenCake organization.
+- You share it on GitHub under the OpenCake organization.
 
 ]
 
@@ -375,8 +375,7 @@ fictitious example though. -->
 ### Starting a new project
 
 - License your code **very early** in the project.
-- **You cannot ignore licensing**: default is "no one can make copies or
-  derivative works".
+- **You cannot ignore licensing**: default is "no one can make derivative works".
 - Start with a `README.md` and a `LICENSE` file.
 - A great resource on what to include in a `README.md`
   are the [JOSS paper review criteria](https://joss.readthedocs.io/en/latest/review_criteria.html).
