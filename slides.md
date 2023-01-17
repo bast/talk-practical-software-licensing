@@ -289,7 +289,7 @@ fictitious example though. -->
 
 ### License: GNU Lesser GPL (LGPL)
 
-- The famous restaurant has to share only the improved cake recipe .emph[but can keep the rest of the menu closed].
+- The restaurant has to share only the improved cake recipe .emph[but can keep other recipes closed].
 - .emph[You can use their improved recipe] and improve it further:
 
 <img src="img/cake-2.svg" alt="cake emoji" style="width: 100px;"/>
