@@ -4,6 +4,7 @@
 - public sector - companies - universities
 - save abstract
 - re-sharing
+- adding license late
 
 
 # Prompts
