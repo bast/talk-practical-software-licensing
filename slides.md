@@ -441,7 +441,18 @@ fictitious example though. -->
 
 # Examples
 
-[here I will list few examples for codes and their license choices ...]
+- **Rust compiler and many public crates**: dual-licensed under Apache 2.0 and MIT
+- **React** (Facebook): switched from custom "BSD+Patents" to MIT
+- **TensorFlow**: Apache 2.0
+- **Pandas**: BSD-3
+- **FFmpeg**: LGPL v2.1+
+- **Emacs**: GPL
+- **Linux kernel**: GPL
+
+
+### Recommendation
+
+- Compare license of codes that you depend on and that might depend on you.
 
 ---
 
