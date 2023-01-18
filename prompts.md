@@ -1,12 +1,3 @@
-# Random notes
-
-- visual intelligence center
-- public sector - companies - universities
-- save abstract
-- re-sharing
-- adding license late
-
-
 # Prompts
 
 - etching image of medieval monk operating a record player

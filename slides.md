@@ -105,7 +105,7 @@ Researchers need to navigate many tools and concepts.
 - idea -> patents
 - name -> trademark
 
-Copyright controls whether we can distribute
+Copyright controls whether and how we can distribute
 the original work or the derivative work
 - "distribute-right"
 - "change-right"
@@ -192,6 +192,12 @@ Code that we write is automatically protected by copyright practically
 
 .cite[Midjourney, CC-BY-NC 4.0]
 ]
+
+---
+
+class: center, middle, inverse
+
+# .quote["It depends"]
 
 ---
 
@@ -370,7 +376,7 @@ fictitious example though. -->
 
 ---
 
-# Practical recommendations
+# Practical recommendations (1/3)
 
 ### Starting a new project
 
@@ -416,6 +422,23 @@ fictitious example though. -->
 
 ---
 
+# Practical recommendations (3/3)
+
+### Open-sourcing code
+
+- Clarify ownership.
+- Identify all contributors.
+- Agree on license.
+- Ask all contributors whether they agree to a license change.
+- If somebody disagrees, their contribution needs to be taken out.
+- Code with incompatible license may need to be taken out.
+- Often it is useful to share the code history: then history needs to be
+  cleaned up (`git filter-branch`).
+- In any legal dispute, one will look at code history (another reason to use
+  version control). A big code base without any history will look suspicious.
+
+---
+
 # Examples
 
 [here I will list few examples for codes and their license choices ...]
@@ -449,6 +472,26 @@ licensing ML components]
 
 ---
 
-# Resources
+## Join our workshops and our services
 
-[here I will list good resources ...]
+.left-column50[
+<img src="img/coderefinery.png" style="height: 140px;"/>
+
+https://coderefinery.org
+]
+
+.right-column50[
+<img src="img/rse-logo.png" style="height: 140px;"/>
+
+https://research-software.uit.no
+]
+
+
+## More about licenses
+
+- https://coderefinery.github.io/social-coding/licensing/#further-reading
+
+
+## More about software citation
+
+- https://coderefinery.github.io/social-coding/software-citation/#how-to-cite-software
