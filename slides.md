@@ -456,9 +456,25 @@ fictitious example though. -->
 
 ---
 
+.left-column50[
+<img src="img/cc.png"
+     alt="Creative commons license spectrum between public domain and all rights reserved"
+     style="height: 500px;"/>
+]
+
+.right-column50[
 # How about data?
 
-under construction ...
+Differences:
+- ND: you may not distribute modified material
+- NC: non-commercial
+
+
+## ... and back to software:
+
+Ethical licenses for open source:
+- https://ethicalsource.dev/licenses/
+]
 
 ---
 
