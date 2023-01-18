@@ -487,13 +487,9 @@ licensing ML components]
 
 ---
 
-# Academic credit
+class: center, middle, gray-background
 
-[I will expand ...]
-
-- Software licenses
-- Software citation
-- Academic credit
+# Software licenses, software citation, and academic credit are not the same thing
 
 ---
 
