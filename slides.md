@@ -460,6 +460,8 @@ fictitious example though. -->
 <img src="img/cc.png"
      alt="Creative commons license spectrum between public domain and all rights reserved"
      style="height: 500px;"/>
+
+.cite[Shaddim; original symbols: Creative Commons, CC-BY 4.0]
 ]
 
 .right-column50[
