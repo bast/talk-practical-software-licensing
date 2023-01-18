@@ -1,4 +1,4 @@
-class: gray-background
+class: center, middle, gray-background
 
 # Practical software licensing
 
