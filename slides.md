@@ -481,6 +481,28 @@ licensing ML components]
 
 # Software citation
 
+- Get a [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier) using
+  [Zenodo](https://zenodo.org) or [Dataverse](https://dataverse.no/) or similar services.
+- Open source license can't demand citation, but it is required by science ethics anyway.
+- Make it as easy as possible! Clearly say what you want cited.
+- Make it easy for scripts and tools, use the [Citation File Format](https://citation-file-format.github.io).
+- [GitHub now supports CITATION.cff files](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/
+about-citation-files)
+
+This is an example of a simple `CITATION.cff` file:
+```yaml
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Druskat
+    given-names: Stephan
+    orcid: https://orcid.org/0000-0003-4925-7248
+title: "My Research Software"
+version: 2.0.4
+doi: 10.5281/zenodo.1234
+date-released: 2021-08-11
+```
+
 ---
 
 ## Join our workshops and our services
