@@ -2,7 +2,7 @@ class: center, middle, gray-background
 
 # Practical software licensing
 
-## Radovan Bast [@\_\_radovan](https://twitter.com/__radovan)
+## Radovan Bast ([fosstodon.org/@radovan](https://fosstodon.org/@radovan))
 
 ### UiT The Arctic University of Norway
 
