@@ -12,7 +12,7 @@ class: center, middle, gray-background
 
 Text: CC-BY 4.0
 
-Slides: (short link)
+Slides: https://bit.ly/practical-software-licensing
 
 ---
 
@@ -559,7 +559,7 @@ date-released: 2021-08-11
 
 ---
 
-## Join our workshops and our services
+## Slides: https://bit.ly/practical-software-licensing
 
 .left-column50[
 <img src="img/coderefinery.png" style="height: 140px;"/>
