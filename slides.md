@@ -10,6 +10,10 @@ class: center, middle, gray-background
 &nbsp;
 <img src="img/rse-logo.png" style="height: 180px;"/>
 
+Text: CC-BY 4.0
+
+Slides: (short link)
+
 ---
 
 # About me
@@ -373,6 +377,25 @@ fictitious example though. -->
 ### If you accept contributions (pull requests), you may not be the only owner anymore!
 
 - Clarify licensing strategy early in the project.
+
+---
+
+# Guidelines/recommendations from various universities
+
+- [Aalto university](https://en.uit.no/research/innovation/art?p_document_id=754152)
+    - Summary: yes, you can open software and data and you need to ask only
+      minimal permission (confirm your supervisor agrees).
+- [UiT](https://en.uit.no/research/innovation/art?p_document_id=754152)
+    - "Work results of a copyright nature belong to the author"
+- [NTNU](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/ipr.html)
+    - "licence that permits reuse and further modification, has broad legal recognition and is certified by the Open Source Initiative (OSI)" 
+- [UiB](https://www.uib.no/en/ub/106619/copyright-own-scientific-work)
+    - "As a rule authors have copyright to their own work"
+    - Encourage the use of CC-BY
+- [UiO](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/ipr.html)
+    - "If the University chooses not to take steps to secure copyright
+      protection and exploit the findings, the employees must be entitled to
+      have these rights reassigned to them."
 
 ---
 
