@@ -382,12 +382,12 @@ fictitious example though. -->
 
 # Guidelines/recommendations from various universities
 
-- [Aalto university](https://en.uit.no/research/innovation/art?p_document_id=754152)
+- [Aalto university](https://www.aalto.fi/en/open-science-and-research/opening-your-software-at-aalto-university)
     - Summary: yes, you can open software and data and you need to ask only
       minimal permission (confirm your supervisor agrees).
 - [UiT](https://en.uit.no/research/innovation/art?p_document_id=754152)
     - "Work results of a copyright nature belong to the author"
-- [NTNU](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/ipr.html)
+- [NTNU](https://i.ntnu.no/wiki/-/wiki/English/Guidelines+for+policy+for+Open+Science)
     - "licence that permits reuse and further modification, has broad legal recognition and is certified by the Open Source Initiative (OSI)" 
 - [UiB](https://www.uib.no/en/ub/106619/copyright-own-scientific-work)
     - "As a rule authors have copyright to their own work"
