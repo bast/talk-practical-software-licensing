@@ -2,7 +2,7 @@ class: center, middle, gray-background
 
 # Practical software licensing at UiT
 
-### [Radovan Bast](https://bast.fr/) (UiT The Arctic University of Norway)
+### Radovan Bast (UiT The Arctic University of Norway)
 
 <img src="img/coderefinery.png"
      alt="CodeRefinery logo"
@@ -20,25 +20,11 @@ class: center, middle, gray-background
 
 ---
 
-## Outline of this short talk
-
-- Lack of guidelines
-
-- Comparing licenses for data and software
-
-- What do other universities recommend?
-
-- What should we recommend?
-
-- Suggestion for a way forward
-
----
-
 ## Problem
 
 - Open science without software licensing is not useful: reuse is then not possible or unclear at best
 
-- UiT seems to lack guidelines about software licensing
+- UiT seems to lack **practical** guidelines about software licensing
 
 - The existing guidelines are not easy to find
   - https://en.uit.no/research/innovation/art?p_document_id=754152
@@ -80,59 +66,15 @@ class: center, middle, gray-background
 
 ---
 
-## NTNU [Guidelines for policy for Open Science](https://i.ntnu.no/wiki/-/wiki/English/Guidelines+for+policy+for+Open+Science)
-
-[...]
-
-"For software production, it is desirable to provide access through a
-licence that permits reuse and further modification, has broad legal recognition and is certified by the Open Source Initiative (OSI).
-.emph[Where no overriding guidelines exist], NTNU-produced software must be licensed under the
-.emph[European Union Public Licence]. For software projects in disciplines with
-special requirements or licensing practices specific to a field of use, it may
-be possible to use other licences that satisfy the OSI requirements for
-open source code (for example the MIT licence, the Apache licence, or GNU
-GPLv3)."
-
-[...]
-
----
-
-## What license(s) should we recommend?
-
-[Comparison of licenses](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses)
-
-
-### MIT
-
-- permissive
-- short
-- very popular (probably the most used worldwide)
-
-
-### European Union Public Licence
-
-- interoperable (no restrictions on linking)
-- reciprocal
-- compatible with GPL/AGPL, LGPL, MPL
-- license text available in 23 EU languages
-- part of European law
-- free legal support
-- good documentation
-
----
-
 ## Suggestion for a way forward
 
-- We provide a clear recommendation
-  (like [NTNU](https://i.ntnu.no/wiki/-/wiki/English/Guidelines+for+policy+for+Open+Science))
-  but also keep it really practical
-  (like [Aalto university](https://www.aalto.fi/en/open-science-and-research/opening-your-software-at-aalto-university))
-- Ownership: ?
-- License: MIT or Apache 2.0 (patent clause) or EUPL, unless derivative code dictates otherwise
-- We give guidelines on what to do if this is a derivative code
-- Provide practical recommendations
-  - License your code very early in the project
-  - Follow https://reuse.software/tutorial/
-  - From day 1 anticipate open sourcing in future
-- Get approval: ?
-- We summarize these in a website and link from our websites and advertise in blog posts and events
+- We provide a clear guide and recommendation
+
+- Draft of a guide: https://research-software.uit.no/blog/2023-software-licensing-guide/
+
+- Collect and implement feedback (the draft has been through few feedback rounds already)
+
+- Once we agree on the guide we make it a policy and publish it on
+  [Zenodo](https://zenodo.org/) as PDF (with a version, since it will evolve)
+
+- From different websites we will then point to the Zenodo DOI
