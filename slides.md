@@ -2,7 +2,7 @@ class: center, middle, gray-background
 
 # Practical software licensing
 
-## Radovan Bast ([fosstodon.org/@radovan](https://fosstodon.org/@radovan))
+## Radovan Bast
 
 ### UiT The Arctic University of Norway
 
@@ -16,9 +16,9 @@ Slides: https://bit.ly/practical-software-licensing
 
 ---
 
-# About me
-
 .left-column30[
+## About me
+
 <img src="img/avatar.jpeg" style="width: 80%;"/>
 ]
 
@@ -31,92 +31,27 @@ Slides: https://bit.ly/practical-software-licensing
 - I lead the [high-performance computing group](https://hpc.uit.no) and the
   [research software engineering group](https://research-software.uit.no) at UiT.
 
+- Drafted a [Research software licensing guide](https://research-software.uit.no/blog/2023-software-licensing-guide/)
+
 .quote[I am not a lawyer. This is not a legal advice ...]
 ]
 
 ---
 
-# Goals
-
-- Connect software licenses to FAIR principles
-
-- .emph[Practical recommendations] for starting, contributing, reusing
-
-- Practical recommendations for individuals, projects, group leads
-
-- Help you navigating and deciding
-
-
-## Not our goals
-
-- Finding out which license is the best: it depends
-- Remembering all the licenses
-- Going into legal details
-- Ideological aspects
-
----
-
-# FAIR principles and software
-
-Researchers need to navigate many tools and concepts.
-
-<img src="img/turing-way/8-fair-principles.jpg" style="height: 380px;"/>
-
-.cite[(c) [Scriberia](http://www.scriberia.co.uk) for [The Turing Way](https://the-turing-way.netlify.com), CC-BY]
-
----
-
-<img src="img/reproducible-research.jpg" style="height: 550px;"/>
-
-.cite[Heidi Seibold, CC-BY 4.0, https://twitter.com/HeidiBaya/status/1579385587865649153]
-
----
-
-.left-column50[
-### Beginning of a project
-
-<img src="img/ai/field.png"
-     alt="Generated image of an empty field"
-     style="height: 250px;" />
-
-.cite[Midjourney, CC-BY-NC 4.0]
-
-- License does not seem important
-- Easy to change (*)
-]
-
-.right-column50[
-### Later in the project
-
-<img src="img/hundertwasserhaus.jpg"
-     alt="Photo of Hunderwasserhaus in Vienna"
-     style="height: 250px;" />
-
-.cite[C.Stadler/Bwag, CC-BY-SA 4.0]
-
-- Can be important
-- Especially when combining codes or organizations
-- Difficult to change
-- Authors change affiliation
-]
-
----
-
-.left-column70[
+.left-column60[
 # Copyright
 
 - .emph[creative expression] -> copyright
+
 - idea -> patents
+
 - name -> trademark
 
 Copyright controls whether and how we can distribute
-the original work or the derivative work
-- "distribute-right"
-- "change-right"
+the original work or the .emph[derivative work].
 
-Code that we write is automatically protected by copyright practically
-"forever" (lifetime of author + 70 years).
-- (c) who exactly, though?
+In the **context of software** it is more about
+being able to change and .emph[distribute changes].
 ]
 
 .right-column30[
@@ -168,6 +103,32 @@ Code that we write is automatically protected by copyright practically
 
 ---
 
+# Why software licenses matter
+
+You find some great code or data that you want to reuse for your own publication.
+
+- This is good for the original author - you will cite them. Maybe other people who cite you will cite them.
+
+- You modify and remix the code.
+
+- Two years later ... &#8987;
+
+- Time to publish: You realize **there is no license to the original work** &#128561;
+
+---
+
+# Now we have a problem
+
+### &#128556; "Best" case: You manage to publish the paper without the software/data
+
+Others cannot build on your software and data.
+
+### &#128561; Worst case: You cannot publish it at all
+
+Journal requires that papers should come with data and software so that they are reproducible.
+
+---
+
 .left-column70[
 # Derivative work?
 
@@ -196,12 +157,6 @@ Code that we write is automatically protected by copyright practically
 
 .cite[Midjourney, CC-BY-NC 4.0]
 ]
-
----
-
-class: center, middle, inverse
-
-# .quote["It depends"]
 
 ---
 
@@ -322,65 +277,15 @@ fictitious example though. -->
 
 ---
 
-### Custom/closed/proprietary
+<img src="img/license-models.png"
+     alt="license models"
+     style="height: 530px;"/>
 
-- .emph[Derivative work typically not possible]
-
-
-### Permissive
-
-- You .emph[may lose access to derivative work]
-- Attractive for companies with proprietary software
-
-
-### Share-alike, weak copyleft
-
-- You can reuse .emph[their changes to your component]
-- Compatible with proprietary software
-
-
-### Strong copyleft
-
-- You can reuse and further change .emph[the combined derivative work]
-- Not attractive for companies with proprietary software
+.cite[European Commission, Directorate-General for Informatics, Schmitz, P., European Union Public Licence (EUPL): guidelines July 2021, Publications Office, 2021, https://data.europa.eu/doi/10.2799/77160]
 
 ---
 
-# Ownership (1/2)
-
-### Who owns the copyright for software you write?
-
-- Intellectual property .emph[depends on the country and the employer] ("works made for hire")
-
-
-### Who can decide about or change a license?
-
-- The copyright holder if a separate "Contributor License Agreement" is signed.
-- Otherwise consent from all contributors.
-
----
-
-# Ownership (2/2)
-
-### If you own your software:
-
-- You can change the license.
-- You can dual-license (e.g. GPL for anyone, but you can pay for commercial non-GPL).
-
-
-### If you do not own your software, you can:
-
-- Request open-sourcing directly (preserves your rights).
-- Request a transfer of ownership (check with your university).
-
-
-### If you accept contributions (pull requests), you may not be the only owner anymore!
-
-- Clarify licensing strategy early in the project.
-
----
-
-# Guidelines/recommendations from various universities
+## Guidelines/recommendations from various universities
 
 - [Aalto university](https://www.aalto.fi/en/open-science-and-research/opening-your-software-at-aalto-university)
     - Summary: yes, you can open software and data and you need to ask only
@@ -400,131 +305,81 @@ fictitious example though. -->
 
 ---
 
-# Practical recommendations (1/3)
-
-### Starting a new project
-
-- License your code **very early** in the project.
-- **You cannot ignore licensing**: default is "no one can make derivative works".
-- Start with a `README.md` and a `LICENSE` file.
-- A great resource on what to include in a `README.md`
-  are the [JOSS paper review criteria](https://joss.readthedocs.io/en/latest/review_criteria.html).
-- Add also the files `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` (see [Mozilla
-  Introduction to Contributor
-  Guidelines](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/write-contributor-guidelines/),
-  [good example](https://github.com/KirstieJane/STEMMRoleModels)).
-
-
-### Even before starting
-
-- Emphasize the open source nature of the code output in your research
-  proposal.
-- Agree on license that works for all project partners.
-
----
-
-### Choice of license
-
-- Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
-  [compatibility](https://en.wikipedia.org/wiki/License_compatibility).
-- **Do not design your own custom licenses** for open source/ open use: compatibility not clear.
-
-
-### Contributing
-
-- Don't lock yourself out of your own code. Clarify the license.
-
-
-### Receiving contributions
-
-- Keep track of where things come from. Clarify their license.
-- **Work as if the repo is public even though it is still private**:
-  This is to avoid surprises about code in the history with incompatible
-  license years later when we decide to open the project.
-- Open core: You don't have to open source all your work. Core can be open
-  and on a public branch. The unpublished stuff can be on a private repository.
-
----
-
-# Practical recommendations (3/3)
-
-### Open-sourcing code
-
-- Clarify ownership.
-- Identify all contributors.
-- Agree on license.
-- Ask all contributors whether they agree to a license change.
-- If somebody disagrees, their contribution needs to be taken out.
-- Code with incompatible license may need to be taken out.
-- Often it is useful to share the code history: then history needs to be
-  cleaned up (`git filter-branch`).
-- In any legal dispute, one will look at code history (another reason to use
-  version control). A big code base without any history will look suspicious.
-
----
-
-# Examples
-
-- **Rust compiler and many public crates**: dual-licensed under Apache 2.0 and MIT
-- **React** (Facebook): switched from custom "BSD+Patents" to MIT
-- **TensorFlow**: Apache 2.0
-- **Pandas**: BSD-3
-- **FFmpeg**: LGPL v2.1+
-- **Emacs**: GPL
-- **Linux kernel**: GPL
-
-
-### Recommendation
-
-- Compare license of codes that you depend on and that might depend on you.
-
----
-
 .left-column50[
-<img src="img/cc.png"
-     alt="Creative commons license spectrum between public domain and all rights reserved"
-     style="height: 500px;"/>
+### Beginning of a project
 
-.cite[Shaddim; original symbols: Creative Commons, CC-BY 4.0]
+<img src="img/ai/field.png"
+     alt="Generated image of an empty field"
+     style="height: 250px;" />
+
+.cite[Midjourney, CC-BY-NC 4.0]
+
+- License does not seem important
+- Easy to change (*)
+- **Start with a LICENSE file**
 ]
 
 .right-column50[
-# How about data?
+### Later in the project
 
-Differences:
-- ND: you may not distribute modified material
-- NC: non-commercial
+<img src="img/hundertwasserhaus.jpg"
+     alt="Photo of Hunderwasserhaus in Vienna"
+     style="height: 250px;" />
 
+.cite[C.Stadler/Bwag, CC-BY-SA 4.0]
 
-## ... and back to software:
-
-Ethical licenses for open source:
-- https://ethicalsource.dev/licenses/
+- Can be important
+- Especially when combining codes or organizations
+- Difficult to change
+- Authors change affiliation
 ]
 
 ---
 
-## Licensing and machine learning/ AI
+## If your work is not derivative work - you started from scratch
 
-### Is it data? Is it software?
+Clarify:
+- Does your work contract, grant, or collaboration agreement dictate a
+  specific license?
+- Is there an intent to commercialize the code?
+- When there is unknown or mixed ownership: If there are multiple persons or
+  organizations as owners of the code, all must agree to the license.
 
-We need to consider the AI solution, the training data, the production data,
-the AI output, and AI evolutions.
+Do not invent your own license. Choose one of the standard licenses, otherwise
+compatibility is not clear:
+  - [Joinup Licensing Assistant - Find and compare software licenses](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses)
+  - [Joinup Licensing Assistant - Compatibility Checker](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-compatibility-checker)
 
+If no overriding guidelines exist, we recommend:
+- **European Union Public Licence, Version 1.2 or later (EUPL)**
+- **MIT License**
 
-### How about ethics? How about liability?
+---
 
-- [EU AI Act](https://artificialintelligenceact.eu/)
-- Models can be reverse-engineered and training data can be extracted
-- What if the model generates an outcome that is dangerous?
-.cite[Thanks to E. Glerean for pointing these issues out to me]
+## If your work is derivative work
 
+**Check the license of the
+original code**. Depending on the license, your choices might be limited:
+- [Joinup Licensing Assistant - Find and compare software licenses](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses)
+- [Joinup Licensing Assistant - Compatibility Checker](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-compatibility-checker)
 
-### Some resources
+If the original code does not have a license, you may not be able to distribute your
+derivative code.
+- Try to contact the authors and ask them to clarify
+  the license of their code.
 
-- [RAIL initiative: "Responsible AI licenses"](https://www.licenses.ai)
-- [The Turing Way: Machine Learning Model Licenses](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-ml.html)
-- ["Expert Q&A on Artificial Intelligence (AI) Licensing"](https://www.mayerbrown.com/-/media/files/news/2019/01/expert-qanda-on-artificial-intelligence-ai-licensing-w0219801.pdf)
+---
+
+## Receiving contributions
+
+- Keep track of where things come from. Clarify their license.
+
+- **Work as if the repo is public even though it is still private**:
+  This is to avoid surprises about code in the history with incompatible
+  license years later when we decide to open the project.
+
+- Open core: You don't have to open source all your work. Core can be open
+  and on a public branch. The unpublished stuff can be on a private repository.
 
 ---
 
@@ -554,13 +409,21 @@ authors:
     orcid: https://orcid.org/1234-5678-9101-1121
 title: "My Research Software"
 version: 2.0.4
-doi: 10.5281/zenodo.1234
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.1234
 date-released: 2021-08-11
 ```
 
 ---
 
 ## Slides: https://bit.ly/practical-software-licensing
+
+- [More about licenses](https://coderefinery.github.io/social-coding/software-licensing/#great-resources)
+
+- [More about software citation](https://coderefinery.github.io/social-coding/software-citation/)
+
+- [Research software licensing guide](https://research-software.uit.no/blog/2023-software-licensing-guide/)
 
 .left-column50[
 <img src="img/coderefinery.png" style="height: 140px;"/>
@@ -573,13 +436,3 @@ https://coderefinery.org
 
 https://research-software.uit.no
 ]
-
-
-## More about licenses
-
-- https://coderefinery.github.io/social-coding/licensing/#further-reading
-
-
-## More about software citation
-
-- https://coderefinery.github.io/social-coding/software-citation/#how-to-cite-software
