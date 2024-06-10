@@ -105,7 +105,7 @@ being able to change and .emph[distribute changes].
 
 # Why software licenses matter
 
-You find some great code or data that you want to reuse for your own publication.
+You find some great code that you want to reuse for your own publication.
 
 - This is good for the original author - you will cite them. Maybe other people who cite you will cite them.
 
