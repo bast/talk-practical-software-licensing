@@ -12,7 +12,7 @@ class: center, middle, gray-background
 
 Text: CC-BY 4.0
 
-Slides: https://bit.ly/practical-software-licensing
+Slides: https://doi.org/10.5281/zenodo.11554001
 
 ---
 
@@ -417,7 +417,7 @@ date-released: 2021-08-11
 
 ---
 
-## Slides: https://bit.ly/practical-software-licensing
+## Slides: https://doi.org/10.5281/zenodo.11554001
 
 - [More about licenses](https://coderefinery.github.io/social-coding/software-licensing/#great-resources)
 
