@@ -12,7 +12,7 @@ class: center, middle, gray-background
 
 Text: CC-BY 4.0
 
-Slides: https://doi.org/10.5281/zenodo.11554001
+Slides: https://doi.org/10.5281/zenodo.11554000
 
 ---
 
@@ -417,7 +417,7 @@ date-released: 2021-08-11
 
 ---
 
-## Slides: https://doi.org/10.5281/zenodo.11554001
+## Slides: https://doi.org/10.5281/zenodo.11554000
 
 - [More about licenses](https://coderefinery.github.io/social-coding/software-licensing/#great-resources)
 
