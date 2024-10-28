@@ -38,65 +38,32 @@ Slides: https://doi.org/10.5281/zenodo.11554000
 
 ---
 
-.left-column60[
-# Copyright
-
-- .emph[creative expression] -> copyright
-
-- idea -> patents
-
-- name -> trademark
-
-Copyright controls whether and how we can distribute
-the original work or the .emph[derivative work].
-
-In the **context of software** it is more about
-being able to change and .emph[distribute changes].
-]
-
-.right-column30[
-<img src="img/ai/gutenberg.png"
-     alt="Generated image of persons operating a Gutenberg press"
-     style="height: 250px;" />
-
-<img src="img/ai/medieval-2.png"
-     alt="Generated image of persons in front of a computer"
-     style="height: 250px;" />
-
-.cite[Midjourney, CC-BY-NC 4.0]
-]
-
----
-
 .left-column70[
-# Sampling/remixing
+## Copyright and derivative work: Sampling/remixing
 
+- Copyright controls whether and how we can distribute
+  the original work or the .emph[derivative work]
+- In the **context of software** it is more about
+  being able to change and .emph[distribute changes]
 - Changing and distributing software is similar to changing and distributing
   music
 - You can do almost anything if you don't distribute it
 
-
-### Often we don't have the choice
-
+**Often we don't have the choice**:
 - We are expected to publish software
 - Sharing can be good insurance against being locked out
 
-
-### Can we distribute our changes?
-
-- ... with the research community or our future selves?
-- .emph[Derivative work]
-- Now it matters to look at licenses
+**Can we distribute our changes** with the research community or our future selves?
 ]
 
-.right-column30[
+.right-column20[
 <img src="img/ai/record-player.png"
      alt="Generated image of a monk operating a record player"
-     style="height: 250px;" />
+     style="height: 220px;" />
 
 <img src="img/ai/turntable.png"
      alt="Generated image of a monk operating two record players"
-     style="height: 250px;" />
+     style="height: 220px;" />
 
 .cite[Midjourney, CC-BY-NC 4.0]
 ]
@@ -126,37 +93,6 @@ Others cannot build on your software and data.
 ### &#128561; Worst case: You cannot publish it at all
 
 Journal requires that papers should come with data and software so that they are reproducible.
-
----
-
-.left-column70[
-# Derivative work?
-
-- Download some code from a website and add on to it:
-  .quote[[ ] yes [ ] no]
-- Download some code and use one of the functions in your code:
-  .quote[[ ] yes [ ] no]
-- Rewriting code you got from somewhere to a different language:
-  .quote[[ ] yes [ ] no]
-- Linking to libraries (static or dynamic), plug-ins, and drivers:
-  .quote[[ ] yes [ ] no]
-- You read a paper, understand algorithm, write own code:
-  .quote[[ ] yes [ ] no]
-- Clean room design (somebody explains you the code but you have never seen it):
-  .quote[[ ] yes [ ] no]
-]
-
-.right-column30[
-<img src="img/ai/tape.png"
-     alt="Generated image of a casette tape"
-     style="height: 250px;" />
-
-<img src="img/ai/bulbs.png"
-     alt="Generated image of the evolution of light bulbs"
-     style="height: 250px;" />
-
-.cite[Midjourney, CC-BY-NC 4.0]
-]
 
 ---
 
@@ -285,26 +221,6 @@ fictitious example though. -->
 
 ---
 
-## Guidelines/recommendations from various universities
-
-- [Aalto university](https://www.aalto.fi/en/open-science-and-research/opening-your-software-at-aalto-university)
-    - Summary: yes, you can open software and data and you need to ask only
-      minimal permission (confirm your supervisor agrees).
-- [UiT](https://en.uit.no/research/innovation/art?p_document_id=754152)
-    - "Work results of a copyright nature belong to the author"
-- [NTNU](https://i.ntnu.no/wiki/-/wiki/English/Guidelines+for+policy+for+Open+Science)
-    - "Where no overriding guidelines exist, NTNU-produced software must be
-      licensed under the European Union Public Licence."
-- [UiB](https://www.uib.no/en/ub/106619/copyright-own-scientific-work)
-    - "As a rule authors have copyright to their own work"
-    - Encourage the use of CC-BY
-- [UiO](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/ipr.html)
-    - "If the University chooses not to take steps to secure copyright
-      protection and exploit the findings, the employees must be entitled to
-      have these rights reassigned to them."
-
----
-
 .left-column50[
 ### Beginning of a project
 
@@ -374,46 +290,9 @@ derivative code.
 
 - Keep track of where things come from. Clarify their license.
 
-- **Work as if the repo is public even though it is still private**:
+- **Work as if the project is public even though it is still private**:
   This is to avoid surprises about code in the history with incompatible
   license years later when we decide to open the project.
-
-- Open core: You don't have to open source all your work. Core can be open
-  and on a public branch. The unpublished stuff can be on a private repository.
-
----
-
-class: center, middle, gray-background
-
-# Software licenses, software citation, and academic credit are not the same thing
-
----
-
-# Software citation
-
-- Get a [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier) using
-  [Zenodo](https://zenodo.org) or [Dataverse](https://dataverse.no/) or similar services.
-- Open source license can't demand citation, but it is required by science ethics anyway.
-- Make it as easy as possible! Clearly say what you want cited.
-- Make it easy for scripts and tools, use the [Citation File Format](https://citation-file-format.github.io).
-- [GitHub now supports CITATION.cff files](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/
-about-citation-files)
-
-This is an example of a simple `CITATION.cff` file:
-```yaml
-cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-authors:
-  - family-names: Druskat
-    given-names: Stephan
-    orcid: https://orcid.org/1234-5678-9101-1121
-title: "My Research Software"
-version: 2.0.4
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.1234
-date-released: 2021-08-11
-```
 
 ---
 
